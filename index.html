@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TRAINING</title>
+    <style>
+        #box{
+            height:200px;
+            width:200px;
+            border:2px solid black;
+            background-color: red;
+        }
+        #circle{
+            height:200px;
+            width:200px;
+            border-radius: 100%;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>About HTML</h1>
+    <p>HTML STANDS FOR HYPER TEXT MARKUP LANGUAGE.</p>
+ <!----
+1) Create Table    <table></table>
+2) Create Row Cell  <tr></tr>
+3) Create Header Cell <th></th> 
+4) Create Data Cell  <td></td>
+-->
+<table border="3">
+    <tr>
+        <th>HTML</th>
+        <th>JS</th>
+    </tr>
+    <tr>
+        <td>HTML stands for Hyper Text Markup Language.</td>
+        <td>JS stand for JavaScript.</td>
+    </tr>
+</table>
+<hr>
+<h2> Implementation Of Ordered Lists in HTML</h2>
+<ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ol>
+<hr>
+<h2> Implementation Of Un-Ordered Lists in HTML</h2>
+<ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+<hr>
+<h2>Contact Us</h2>
+<form>
+    <table border="2">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="username" placeholder="John"/>  </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" name="email" placeholder="xyz@gmail.com" required/>  </td>
+        
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password" placeholder="*******"/>  </td>
+        
+        </tr>
+        <tr>
+            <td><button type="submit">POST</button></td>
+            <td><button type="reset">Reset</button></td>
+        
+        </tr>
+    </table>
+</form>
+<hr>
+<h2>Adding Images to a web page</h2>
+<img src="./images/sikkim.jpg" height="300px" width="400px"/>
+<h3>This picture is downloaded from other resources</h3>
+<img src="https://as1.ftcdn.net/v2/jpg/01/21/23/68/1000_F_121236833_qW55yETyBDXcwPL3ZPioUt4uVd0DkYaQ.jpg" height="300px" width="400px"/>
+<h3>This picture is retrieved directly from internet</h3>
+<hr>
+<h2>Making a red box using inline css</h2>
+<div id="box">
+    <div id="circle"></div>
+</div>
+</body>
+</html>
